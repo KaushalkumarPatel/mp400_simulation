@@ -1,0 +1,6 @@
+<launch>
+ <!-- robot launch file -->
+ <node pkg="mp400_simulation" type="neo_run.py" name="Neo_traj" output="screen">
+ </node>
+
+</launch>
