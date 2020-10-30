@@ -36,15 +36,15 @@
 <!-- Load the controllers -->
 	<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
     output="screen" ns="/robot"  args="joint_state_controller
-																			 joint_trajectory_controller
-																			 joint_group_position_controller
-																			 joint_group_interpol_position_controller
-																			 arm_1_joint_position_controller
-																			 arm_2_joint_position_controller
-																			 arm_3_joint_position_controller
-																			 arm_4_joint_position_controller
-																			 arm_5_joint_position_controller
-																			 arm_6_joint_position_controller">
+			               joint_trajectory_controller
+				       joint_group_position_controller
+				       joint_group_interpol_position_controller
+				       arm_1_joint_position_controller
+				       arm_2_joint_position_controller
+				       arm_3_joint_position_controller
+				       arm_4_joint_position_controller
+				       arm_5_joint_position_controller
+				       arm_6_joint_position_controller">
 	</node>
 
 <!-- Run a python script to the send a service call to gazebo_ros to spawn
